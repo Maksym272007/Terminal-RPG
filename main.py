@@ -201,7 +201,7 @@ def load_game():
 
 # New Game / Load Game
 while True:
-        print("======= PYTHON RPG =======\n")
+        print("======= TERMINAL RPG =======\n")
         print("1. New game")
         print("2. Load game\n")
         try:
@@ -229,7 +229,7 @@ while True:
 
 # Main menu
 while True:
-    print("======= PYTHON RPG =======\n")
+    print("======= TERMINAL RPG =======\n")
     print("1. Character info")
     print("2. Select weapon")
     print("3. Inventory")
