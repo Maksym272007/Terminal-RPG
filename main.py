@@ -95,6 +95,7 @@ def start_battle(character):
             print("You were defeated...")
         elif battle_result == "escaped":
             print("	You escaped from the battle!")
+            break
         elif enemy.health <= 0:
             battle_result = "victory"
             print("	You successfully defeated the enemy!")

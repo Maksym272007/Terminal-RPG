@@ -1,14 +1,62 @@
 {
     "name": "Max",
-    "health": 140,
-    "max_health": 150,
-    "level": 1,
+    "health": 210,
+    "max_health": 210,
+    "level": 4,
     "experience": 0,
     "class": "Warrior",
     "inventory": [
         {
             "weapon_name": "Sword",
             "damage": 35,
+            "rarity": "Common",
+            "durability": 50
+        },
+        {
+            "weapon_name": "Old shortbow",
+            "damage": 15,
+            "rarity": "Common",
+            "durability": 100
+        },
+        {
+            "weapon_name": "Shortbow",
+            "damage": 25,
+            "rarity": "Epic",
+            "durability": 0
+        },
+        {
+            "weapon_name": "Old shortbow",
+            "damage": 15,
+            "rarity": "Common",
+            "durability": 100
+        },
+        {
+            "weapon_name": "Old shortbow",
+            "damage": 15,
+            "rarity": "Common",
+            "durability": 100
+        },
+        {
+            "weapon_name": "Shortsword",
+            "damage": 30,
+            "rarity": "Uncommon",
+            "durability": 10
+        },
+        {
+            "weapon_name": "Shortbow",
+            "damage": 25,
+            "rarity": "Common",
+            "durability": 100
+        },
+        {
+            "weapon_name": "Old shortbow",
+            "damage": 15,
+            "rarity": "Uncommon",
+            "durability": 100
+        },
+        {
+            "weapon_name": "Rusty sword",
+            "damage": 20,
             "rarity": "Common",
             "durability": 100
         }
@@ -18,7 +66,12 @@
             "name": "Healing Potion",
             "healing": 30,
             "description": "Restores 30 HP"
+        },
+        {
+            "name": "Healing Potion",
+            "healing": 30,
+            "description": "Restores 30 HP"
         }
     ],
-    "equipped_weapon": "Sword"
+    "equipped_weapon": "Rusty sword"
 }
